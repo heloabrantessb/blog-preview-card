@@ -31,7 +31,7 @@ main{
     min-width: 28.125rem;
     max-width: 36.125rem;
     width: 85%;
-    height: 50rem;
+    height: 48rem;
     background-color: white;
     border: 1px solid black;
     border-radius: 1.6rem;
@@ -46,6 +46,36 @@ main .web-photo{
     width: 100%;
     border-radius: 1.6rem;
 }
+main .status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    font-family: 'FigTree', sans-serif;
+}
+.date,
+.status,
+.web-photo,
+h1,
+section p{
+    margin-bottom: 1.6rem;
+}
 section h1{
     font-family: 'FigTree', sans-serif;
+}
+section p{
+    color: hsl(0, 0%, 50%) ;
+    margin-bottom: 2rem;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    font-family: 'FigTree', sans-serif;
+}
+.author img{
+    width: 3.5rem;
 }
