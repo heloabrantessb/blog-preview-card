@@ -65,6 +65,11 @@ section p{
 }
 section h1{
     font-family: 'FigTree', sans-serif;
+    cursor: pointer;
+}
+
+section h1:hover{
+    color: hsl(47, 88%, 63%);
 }
 section p{
     color: hsl(0, 0%, 50%) ;
